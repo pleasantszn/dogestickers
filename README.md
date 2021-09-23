@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Introducing, the next big thing , BUCK .
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Buck is a free, lightweight (I'm speaking 4.8kb), open source cli tool designed to help improve your productivity in the terminal.
 
-## Available Scripts
+Now let's see how we can organise multiple commands, in this case, pushing a new version of our app to git with buck all in one single command. .
 
-In the project directory, you can run:
+DISCLAIMER : YOU ARE BROKE.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You have to have python and pip installed, then you have to SUPPORT ME ON PATREON , even if it's one dollar, it would help a little, sad and virgin ass nerd.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Once you have that all ready,
 
-### `npm test`
+```sh
+pip install buck
+```
+That should be installed in seconds if you are leaving somewhere definitely not in Nigeria.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+We are going to be organizing all of these commands into one :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- git add .
+- git commit -am "commit message"
+- git status
+- git push master
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Now , run **buck -c or --create command :**
 
-### `npm run eject`
+### Name
+This is the name of this bucket of commands, you can call it anything, I'd call it git push .
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Commands
+These are all the commands you want to run all at once, which in this case are:
+git add. , git commit -am $, git status , git push master.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*PLEASE SEPRATE MULTIPLE COMMANDS WITH A ","*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You are probably wondering why we have a $ as the commit message , this is so that we don't have to repeat the same commit message for every push to git. So we add the $, to accept future values(you'd see this in execution)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Executor
 
-## Learn More
+This is the keyword you'd use to run all of these commands, you can go crazy with this and name it anything, I'd just call it push.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Description (optional)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This is a short message on what the bucket does, you don't really need it .
 
-### Code Splitting
+If you followed all the steps you should have something like this :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Once you have all that setup, **SUPPORT ME ON PATREON.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+It's time to see what we've created in action,clear your terminal for this life changing moment, and run this:
 
-### Advanced Configuration
+```sh
+buck push "your commit message"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+It is done , folks !. You must became a way more better developer now you can go and work on your billion dollar idea, you can create other buckets to organize multiple commands of your choice whether to deploy to a cloud service provider, setup your projects, update your projects, install a long list of commands in your project and so much more.
 
-### Deployment
+Go ahead now! Pip install buck
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+Please support me by donating to this project . Become a patron sponsor today !.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Check it out the open source code :
+https://github.com/Pleasant-tech/Buck
+
+Installation link :
+https://pypi.org/project/buck/
+
+Reach out to me :
+YouTube.com/c/Pleasanttech
+Twitter.com/Pleasanttech01
