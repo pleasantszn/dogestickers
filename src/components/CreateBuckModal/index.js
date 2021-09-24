@@ -11,7 +11,8 @@ import {
     FormControl,
   FormLabel,
   Input,
-  Text
+  Text,
+  Textarea
   } from "@chakra-ui/react"
 import { AddIcon } from '@chakra-ui/icons'
 
@@ -73,6 +74,14 @@ const CreateBuckModal = ({ closeEvent, openState }) => {
                         <AddIcon />
                         <Text fontSize="12" pl="3" >Add Command</Text>
                     </Button>
+                </FormControl>
+                <FormControl mt="3" id="buck-description" isRequired>
+                    <FormLabel>Buck Description</FormLabel>
+                    <Textarea placeholder="First name" />
+                </FormControl>
+                <FormControl mt="3" id="buck-exectuor" isRequired>
+                    <FormLabel>Executor Command</FormLabel>
+                    <Input placeholder="Command to execute the buck groupings" />
                 </FormControl>
             </form>
           </ModalBody>
