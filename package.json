@@ -34,7 +34,7 @@
     ]
   },
   "engines": {
-    "node": "14.8.1",
+    "node": "6.11.1",
     "npm": "~1.0.20"
   },
   "browserslist": {
