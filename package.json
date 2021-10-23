@@ -1,5 +1,6 @@
 {
   "name": "Dogestickers",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11",
