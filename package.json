@@ -34,8 +34,7 @@
     ]
   },
   "engines": {
-    "node": "6.11.1",
-    "npm": "~1.0.20"
+    "node": "6.11.1"
   },
   "browserslist": {
     "production": [
