@@ -9,7 +9,7 @@ const StickerPage = () => {
     const [sticker, setSticker] = useState([])
         
     const apiKey = "JKCzO8VOoWhPHVmt56khpQykkyINElV8"
-    const url = `https://api.giphy.com/v1/stickers/trending?api_key=${apiKey}&limit=3`
+    const url = `https://api.giphy.com/v1/stickers/trending?api_key=${apiKey}&limit=10`
    
 
     useEffect(() => {
