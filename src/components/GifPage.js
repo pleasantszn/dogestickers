@@ -11,7 +11,7 @@ const GifPage = () => {
 
     
     const apiKey = "JKCzO8VOoWhPHVmt56khpQykkyINElV8"
-    const url = `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&limit=20`
+    const url = `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&limit=10`
    
 
     useEffect(() => {
